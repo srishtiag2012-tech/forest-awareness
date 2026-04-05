@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Save Our Forests</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:url("forestbg.jpg")no-repeat center center/cover;
+background-attachment:fixed;
+color:white;
+}
+
+.overlay{
+background:rgba(0,0,0,0.4);
+padding:60px 20px;
+}
+
+h1{
+font-size:48px;
+text-align:center;
+}
+
+p{
+font-size:20px;
+max-width:900px;
+margin:auto;
+line-height:1.6;
+}
+
+.graph-section{
+background:white;
+color:black;
+margin:60px auto;
+padding:40px;
+border-radius:10px;
+max-width:900px;
+}
+
+.graph-section h2{
+font-size:32px;
+margin-bottom:10px;
+}
+
+.graph-section p{
+color:#555;
+margin-bottom:30px;
+}
+
+.row{
+display:flex;
+align-items:center;
+margin:12px 0;
+}
+
+.country{
+width:160px;
+font-weight:bold;
+}
+
+.bar{
+background:#e53935;
+height:28px;
+border-radius:4px;
+display:flex;
+align-items:center;
+color:white;
+padding-left:8px;
+font-size:14px;
+}
+
+/* bar sizes */
+.brazil{width:90%;}
+.congo{width:30%;}
+.bolivia{width:22%;}
+.indonesia{width:15%;}
+.peru{width:10%;}
+.colombia{width:8%;}
+.laos{width:6%;}
+.cameroon{width:5%;}
+
+img.poster{
+width:100%;
+border-radius:10px;
+margin:40px 0;
+}
+
+.feedback{
+background:#1b5e20;
+padding:40px;
+text-align:center;
+}
+
+textarea{
+width:80%;
+height:120px;
+font-size:16px;
+padding:10px;
+}
+
+button{
+margin-top:15px;
+padding:10px 25px;
+font-size:18px;
+background:#4caf50;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.leaf{
+position:fixed;
+top:-10px;
+color:#66bb6a;
+animation:fall linear infinite;
+}
+
+@keyframes fall{
+to{
+transform:translateY(100vh) rotate(360deg);
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="overlay">
+
+<h1>🌳 The Silent Cry of Forests</h1>
+
+<p>
+Once the forests were alive with birds, animals and wind moving through leaves.
+But slowly trees disappear, and with every tree a small world collapses.
+</p>
+
+<img src="poster1.jpg" class="poster">
+
+<p>
+When one tree falls, birds lose nests, animals lose shelter, soil becomes weak,
+rivers carry away the land, floods increase and climate begins to change.
+</p>
+
+</div>
+
+<!-- GRAPH -->
+
+<section class="graph-section">
+
+<h2>Where Most Primary Forest Is Lost</h2>
+
+<p>Learn more about forests at 
+<a href="https://www.worldwildlife.org/" target="_blank">
+World Wildlife Fund
+</a>.<div class="overlay">
+
+<h2>🌱 How Forests Grow</h2>
+
+<p>
+Every great forest begins with a tiny seed. When a seed falls on healthy soil
+and receives sunlight and rain, it slowly begins to grow.
+</p>
+
+<p>
+During the first few years the plant is only a fragile sapling. Animals,
+weather and lack of water can easily destroy it. But if it survives, it slowly
+becomes a young tree.
+</p>
+
+<p>
+After 20 to 30 years that small plant becomes a strong tree. Its roots hold
+the soil firmly, its branches give shelter to birds, and its leaves produce
+oxygen for the air we breathe.
+</p>
+
+<p>
+But the sad truth is that a tree which takes <b>30 years to grow</b> can be
+cut down in <b>less than 5 minutes</b>.
+</p>
+
+</div></p>
+
+<div class="row">
+<div class="country">🇧🇷 Brazil</div>
+<div class="bar brazil">1,773</div>
+</div>
+
+<div class="row">
+<div class="country">🇨🇩 DR Congo</div>
+<div class="bar congo">513</div>
+</div>
+
+<div class="row">
+<div class="country">🇧🇴 Bolivia</div>
+<div class="bar bolivia">386</div>
+</div>
+
+<div class="row">
+<div class="country">🇮🇩 Indonesia</div>
+<div class="bar indonesia">230</div>
+</div>
+
+<div class="row">
+<div class="country">🇵🇪 Peru</div>
+<div class="bar peru">161</div>
+</div>
+
+<div class="row">
+<div class="country">🇨🇴 Colombia</div>
+<div class="bar colombia">128</div>
+</div>
+
+<div class="row">
+<div class="country">🇱🇦 Laos</div>
+<div class="bar laos">93</div>
+</div>
+
+<div class="row">
+<div class="country">🇨🇲 Cameroon</div>
+<div class="bar cameroon">76</div>
+</div>
+<h2>🌍 Forests vs Deforestation</h2>
+
+<table class="forest-table">
+
+<tr>
+<th>With Forests</th>
+<th>Without Forests</th>
+</tr>
+
+<tr>
+<td>Soil stays strong and fertile</td>
+<td>Soil erosion and landslides</td>
+</tr>
+
+<tr>
+<td>Clean air and oxygen</td>
+<td>Air pollution increases</td>
+</tr>
+
+<tr>
+<td>Wildlife habitats protected</td>
+<td>Animals lose their homes</td>
+</tr>
+
+<tr>
+<td>Balanced climate</td>
+<td>Global warming increases</td>
+</tr>
+
+</table>
+
+</section>
+
+<div class="overlay">
+
+<img src="poster2.jpg" class="poster">
+
+<p>
+A tree takes decades to grow. Yet it can be destroyed in minutes.
+Forests give us oxygen, medicine, homes for wildlife and protection
+against floods and climate change.
+</p>
+
+<img src="poster3.jpg" class="poster">
+
+</div>
+
+<!-- FEEDBACK -->
+<section class="feedback">
+
+<h2>🌍 Our Responsibility to Forests</h2>
+
+<p>
+Governments can protect forests by creating strict environmental laws,
+protecting wildlife areas and encouraging tree plantation programs.
+</p>
+
+<p>
+But protecting forests is not only the job of governments.
+Every citizen also has a role to play.
+</p>
+
+<p>
+🌳 Plant trees whenever possible.<br>
+📄 Reduce unnecessary paper use.<br>
+🔥 Prevent forest fires.<br>
+🌿 Support forest conservation programs.
+</p>
+
+<p>
+Many international organizations such as
+<a href="https://www.worldwildlife.org" target="_blank">World Wildlife Fund</a>
+and
+<a href="https://www.globalforestwatch.org" target="_blank">Global Forest Watch</a>
+work to protect forests across the world.
+</p>
+
+</section>
+
+<section class="feedback">
+
+<h2>Your Feedback</h2>
+
+<p>What do you think about protecting forests?</p>
+
+<textarea placeholder="Write your thoughts..."></textarea>
+<br>
+<button>Submit</button>
+
+</section>
+
+<script>
+
+/* falling leaves */
+
+for(let i=0;i<15;i++){
+
+let leaf=document.createElement("div")
+leaf.className="leaf"
+leaf.innerHTML="🍃"
+
+leaf.style.left=Math.random()*100+"%"
+leaf.style.animationDuration=(5+Math.random()*5)+"s"
+leaf.style.fontSize=(15+Math.random()*20)+"px"
+
+document.body.appendChild(leaf)
+
+}
+
+</script>
+
+</body>
+</html>
